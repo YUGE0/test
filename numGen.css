@@ -6,35 +6,32 @@
 }
 
 .val {
-    width: 70%;
+    width: 100%;
     height: 50%;
     margin-top: 10%;
-    margin-bottom: 10%; 
     color: hsl(212, 100%, 60%);
     text-align: center;
     font-size: 700%;
     text-align: center;
-    float: left;
 }
 
 .incomingValue {
-    width: 30%;
+    width: 100%;
     height: 50%;
     margin-top: 10%;
-    margin-bottom: 10%;
     color: hsl(212, 100%, 60%);    
-    float: right;
 }
 
 .incomingValueMin{
-    font-size: 30px;
-    margin-top: 5%;
-    width: 20%;
+    font-size: 200%;
+    width: 15%;
+    float: left;
     }
 .incomingValueMax{
-    font-size: 30px;
-    margin-right: 80%;
-    
+    font-size: 200%;
+    margin-top: 5%;
+    width: 15%;
+    float: left;
 }
 
 .incomingValueMin_in{
@@ -43,25 +40,28 @@
 }
 
 #input1{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 200%;
     border: none;
     border-bottom: 1px solid hsl(212, 100%, 60%) ;
     width: 80%;
+    float: right;
 }
 #input2{
     background-color: black;
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 200%;
     border: none;
     border-bottom: 1px solid hsl(212, 100%, 60%);
+    margin-top: 5%;
     width: 80%;
+    float: right;
 }
 
 .GB {
     color: azure;
-    margin-top: 43%;
+    margin-top: 40%;
     border-top: 1px solid hsl(212, 100%, 60%);
     text-align: center;
     font-size: 200%;
