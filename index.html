@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="numGen.css">
     <link rel="icon" href="favicon.ico" type="favicon">
     <script src="numGen.js"></script>
     <title>Number Genrator</title>
 </head>
 <body>
+    <div></div>
     <div id="numGen">
         <div class="val" id="v" value="1">1</div>
         <div class="incomingValue">
             <div class="incomingValueMin">Min</div>
             <div class="incomingValueMin_in"><input id="input1" value="1" type="number"> </div>
             <div class="incomingValueMax">Max</div>
-            <div class="incomingValueMax_in"><input id="input2" value="10" type="number"> </div>
+            <div class="incomingValueMax_in"><input id="input2" value="10"  maxlength="999999" type="number"> </div>
         </div>
         <div class="GB" name="GButton" type="button" role="button" onclick="gen()" >Genrate</div>
     </div>
+    <div> </div>
 </body>
 </html>
