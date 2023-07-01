@@ -37,6 +37,7 @@
     background-color: rgba(0, 0, 0, 0);
     color: whitesmoke;
     font-size: 200%;
+    border: none; 
     border-bottom: 1px solid hsl(212, 100%, 60%) ;
     width: 50%;
     font-family: 'Zen Dots', cursive;
@@ -65,4 +66,5 @@
 
 body {
     background-color: black;
+
 }
