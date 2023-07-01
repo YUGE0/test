@@ -1,8 +1,8 @@
 #numGen {
 
     background-color: hsl(0, 0%, 0%);
-    height: 300px ;
-    width: 600px;
+    height: 300% ;
+    width: 600%;
     border: 1px solid hsl(212, 100%, 60%);
 }
 
