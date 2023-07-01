@@ -1,0 +1,73 @@
+#numGen {
+
+    background-color: hsl(0, 0%, 0%);
+    height: 300px ;
+    width: 600px;
+    border: 1px solid hsl(212, 100%, 60%);
+}
+
+.val {
+    width: 68%;
+    height: 50%;
+    margin-top: 10%;
+    color: hsl(212, 100%, 60%);
+    text-align: center;
+    font-size: 700%;
+    text-align: center;
+    float: left;
+}
+
+.incomingValue {
+    width: 30%;
+    height: 50%;
+    margin-top: 10%;
+    color: hsl(212, 100%, 60%);    
+    float: right;
+}
+
+.incomingValueMin{
+    font-size: 30px;
+    margin-top: 5%;
+    width: 20%;
+    }
+.incomingValueMax{
+    font-size: 30px;
+    margin-right: 80%;
+    
+}
+
+.incomingValueMin_in{
+}
+.incomingValueMax_in{
+}
+
+#input1{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid hsl(212, 100%, 60%) ;
+    width: 80%;
+}
+#input2{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid hsl(212, 100%, 60%);
+    width: 80%;
+}
+
+.GB {
+    color: azure;
+    margin-top: 40%;
+    border: 1px solid hsl(212, 100%, 60%);
+    text-align: center;
+    font-size: 200%;
+    height: 40px;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
