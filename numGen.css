@@ -10,6 +10,7 @@
     width: 70%;
     height: 50%;
     margin-top: 5%;
+    margin-bottom: 10%; 
     color: hsl(212, 100%, 60%);
     text-align: center;
     font-size: 700%;
@@ -21,6 +22,7 @@
     width: 30%;
     height: 50%;
     margin-top: 5%;
+    margin-bottom: 10%;
     color: hsl(212, 100%, 60%);    
     float: right;
 }
