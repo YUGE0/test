@@ -9,7 +9,7 @@
 .val {
     width: 70%;
     height: 50%;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 10%; 
     color: hsl(212, 100%, 60%);
     text-align: center;
@@ -21,7 +21,7 @@
 .incomingValue {
     width: 30%;
     height: 50%;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 10%;
     color: hsl(212, 100%, 60%);    
     float: right;
