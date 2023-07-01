@@ -1,13 +1,13 @@
 #numGen {
 
     background-color: hsl(0, 0%, 0%);
-    height: 300% ;
-    width: 600%;
+    height: 100%;
+    width: 100%;
     border: 1px solid hsl(212, 100%, 60%);
 }
 
 .val {
-    width: 68%;
+    width: 70%;
     height: 50%;
     margin-top: 10%;
     color: hsl(212, 100%, 60%);
@@ -61,11 +61,11 @@
 .GB {
     color: azure;
     margin-top: 40%;
-    border: 1px solid hsl(212, 100%, 60%);
+    border-top: 1px solid hsl(212, 100%, 60%);
     text-align: center;
     font-size: 200%;
-    height: 40px;
-    width: 100%;
+    height: 50%;
+    padding: 1%;
 }
 
 body {
