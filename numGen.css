@@ -1,13 +1,16 @@
 #numGen {
 
     background-color: hsl(0, 0%, 0%);
-    width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    width: 50%;
+    height: 60%;
     border: 1px solid hsl(212, 100%, 60%);
 }
 
 .val {
     width: 100%;
-    height: 50%;
     margin-top: 10%;
     color: hsl(212, 100%, 60%);
     text-align: center;
@@ -32,11 +35,6 @@
     margin-top: 5%;
     width: 15%;
     float: left;
-}
-
-.incomingValueMin_in{
-}
-.incomingValueMax_in{
 }
 
 #input1{
