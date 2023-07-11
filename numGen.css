@@ -1,11 +1,12 @@
 #numGen{
-    height 100dvw;
-    height 100vw;
+    height: 20dvw;
+    height: 20vw;
+    width: 50dvw;
+    width: 50vw;
 }
 
 .val {
     width: 100%;
-    margin-top: 10%;
     color: hsl(212, 100%, 60%);
     text-align: center;
     font-size: 500%;
@@ -23,15 +24,17 @@
 .incomingValueMin{
     background-color: black;
     font-size: 200%;
-    width: 46%;
+    text-align: left;
+    width: 50%;
     font-family: 'Zen Dots', cursive;
     float: left;
     }
 .incomingValueMax{
     background-color: black;
     font-size: 200%;
+    text-align: left;
     margin-top: 5%;
-    width: 48%;
+    width: 50%;
     font-family: 'Zen Dots', cursive;
     float: left;
 }
@@ -40,9 +43,9 @@
     background-color: rgba(0, 0, 0, 0);
     color: whitesmoke;
     font-size: 200%;
-    border: none; 
+    border: none;
     border-bottom: 1px solid hsl(212, 100%, 60%) ;
-    width: 50%;
+    width: 40%;
     font-family: 'Zen Dots', cursive;
     float: right;
 }
@@ -53,21 +56,20 @@
     border: none;
     border-bottom: 1px solid hsl(212, 100%, 60%);
     margin-top: 5%;
-    width: 50%;
+    width: 40%;
     font-family: 'Zen Dots', cursive;
     float: right;
 }
 
 .GB {
     color: azure;
-    margin-top: 40%;
+    margin-top: 15%;
     border-top: 1px solid hsl(212, 100%, 60%);
     text-align: center;
-    font-size: 200%;
+    font-size: 8dvw;
     font-family: 'Zen Dots', cursive;
 }
 
 body {
     background-color: black;
-
 }
