@@ -1,73 +1,63 @@
+*{
+    font-family: 'Saira', sans-serif;
+}
 #numGen{
-    height: 20dvw;
-    height: 20vw;
-    width: 50dvw;
-    width: 50vw;
+    min-width: 30dvw;
+    min-height: 30dvw;
+    max-height: 80dvw;
+    max-width: 80dvw;
 }
 
 .val {
-    width: 100%;
     color: hsl(212, 100%, 60%);
     text-align: center;
-    font-size: 500%;
+    font-size: 25dvw;
+    font-weight: 700;
     text-align: center;
-    font-family: 'Zen Dots', cursive;
 }
 
 .incomingValue {
-    width: 100%;
-    height: 50%;
-    margin-top: 10%;
+    display: grid;
+    grid-template-columns:20% auto;
+    grid-column-gap: 40%;
+    margin-top: 5dvw;
     color: hsl(212, 100%, 60%);    
 }
 
 .incomingValueMin{
-    background-color: black;
-    font-size: 200%;
-    text-align: left;
-    width: 50%;
-    font-family: 'Zen Dots', cursive;
-    float: left;
-    }
+    justify-items: start;
+    font-weight: 500;
+    font-size: 8dvw;
+}
 .incomingValueMax{
-    background-color: black;
-    font-size: 200%;
-    text-align: left;
-    margin-top: 5%;
-    width: 50%;
-    font-family: 'Zen Dots', cursive;
-    float: left;
+    justify-items: end;
+    font-weight: 500;
+    font-size: 8dvw;
 }
 
 #input1{
     background-color: rgba(0, 0, 0, 0);
     color: whitesmoke;
-    font-size: 200%;
+    font-size: 10dvw;
+    width: none;
     border: none;
-    border-bottom: 1px solid hsl(212, 100%, 60%) ;
-    width: 40%;
-    font-family: 'Zen Dots', cursive;
-    float: right;
 }
 #input2{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     color: whitesmoke;
-    font-size: 200%;
+    font-size: 10dvw;
+    width: none;
     border: none;
-    border-bottom: 1px solid hsl(212, 100%, 60%);
-    margin-top: 5%;
-    width: 40%;
-    font-family: 'Zen Dots', cursive;
-    float: right;
 }
 
 .GB {
-    color: azure;
-    margin-top: 15%;
-    border-top: 1px solid hsl(212, 100%, 60%);
+    background-color: black;
+    border: none;
+    width: 80dvw;
+    border-top: 1px solid hsl(212, 100%, 60%) ;
+    color:  hsl(212, 100%, 60%) ;
     text-align: center;
-    font-size: 8dvw;
-    font-family: 'Zen Dots', cursive;
+    font-size: 3dvw;
 }
 
 body {
